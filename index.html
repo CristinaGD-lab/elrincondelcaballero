@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="normalize.css">
+  <title>El rincón del caballero | tu barbería de confianza</title>
+</head>
+
+<body>
+  <header id="inicio">
+    <!-- NAVEGACION -->
+    <div class="barra-navegacion">
+      <nav class="navegacion-principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#presentacion">Quiénes somos</a></li>
+          <li><a href="#productos">Productos y servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#trabajar">Trabaja con nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- BACKGROUND -->
+    <div class="hero">
+
+      <div class="oscurecer"></div>
+
+      <div class="hero-container">
+        <h1>El Rincón del Caballero</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main">
+    <section id="presentacion" class="quienes-somos">
+      <div class="presentacion">
+        <img class="presentacion__img" src="img/equipo.jpg" alt="img del equipo de la empresa">
+        <p class="presentacion__p">En El Rincón del Caballero albergamos el mejor equipo humano para ofrecerte un
+          servicio de calidad. Cada poco tiempo realizamos formaciones dentro de nuestro establecimiento
+          para asegurarnos que nuestro equipo está actualizado con las ultimas tendencias de moda.</p>
+      </div>
+      <video controls class="video">
+        <source src="video/video_presentacion.mp4">
+      </video>
+
+      <!-- GALERÍA -->
+      <h2 class="seccion-titulo">Nuestro Equipo</h2>
+      <div class="galeria">
+         <!-- nuestro equipo -->
+        <div class="galeria__elemento">
+          <img src="img/mari_principal.jpg" alt="img miembro del equipo">
+          <h3>María José</h3>
+        </div>
+        <div class="galeria__elemento">
+          <img src="img/carmen.jpg" alt="img miembro del equipo">
+          <h3>Carmen</h3>
+        </div>
+        <div class="galeria__elemento">
+          <img src="img/manoli.jpg" alt="img miembro del equipo">
+          <h3>Manoli</h3>
+        </div>
+        <div class="galeria__elemento">
+          <img src="img/rosa.jpg" alt="img miembro del equipo">
+          <h3>Rosa</h3>
+        </div>
+      </div>
+    </section>
+
+  <!-- PRODUCTOS Y SERVICIOS -->
+
+  <section id="productos" class="productos-servicios">
+    <h2 class="seccion-titulo">Productos y Servicios</h2>
+    
+    <div class="productos-servicios__contenedor">
+      <div class="productos-servicios__item">
+        <img src="img/corte-moderno.jpeg" alt="Corte clásico y moderno">
+        <h3>Corte clásico y moderno</h3>
+        <!-- tabla de servicios y precios -->
+        <table>
+          <tr>
+            <th>Servicio</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+          </tr>
+          <tr>
+            <td>Corte clásico</td>
+            <td>Un estilo atemporal y elegante</td>
+            <td>20.00 €</td>
+          </tr>
+          <tr>
+            <td>Corte moderno</td>
+            <td>Estilo con líneas definidas y acabados precisos</td>
+            <td>20.00 €</td>
+          </tr>
+        </table>
+      </div>
+  
+      <div class="productos-servicios__item">
+        <img src="img/ritual-de-barba.jpg" alt="Ritual de barba">
+        <h3>Ritual de barba</h3>
+        <table>
+          <tr>
+            <th>Servicio</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+          </tr>
+          <tr>
+            <td>Lavado e hidratación</td>
+            <td>Uso de aceites esenciales y masaje</td>
+            <td>35.00 €</td>
+          </tr>
+          <tr>
+            <td>Recorte profesional</td>
+            <td>Definición y arreglo de la barba</td>
+            <td>35.00 €</td>
+          </tr>
+        </table>
+      </div>
+  
+      <div class="productos-servicios__item">
+        <img src="img/cejas-hombre.jpg" alt="Diseño y depilación de cejas">
+        <h3>Diseño y depilación de cejas</h3>
+        <table>
+          <tr>
+            <th>Servicio</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+          </tr>
+          <tr>
+            <td>Depilación con pinza</td>
+            <td>Forma detallada y precisa</td>
+            <td>10.00 €</td>
+          </tr>
+          <tr>
+            <td>Depilación con hilo</td>
+            <td>Mayor precisión y menos irritación</td>
+            <td>10.00 €</td>
+          </tr>
+        </table>
+      </div>
+  
+      <div class="productos-servicios__item">
+        <img src="img/personalizacion.png" alt="Personalización de corte">
+        <h3>Personalización de corte</h3>
+        <table>
+          <tr>
+            <th>Servicio</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+          </tr>
+          <tr>
+            <td>Consulta personalizada</td>
+            <td>Asesoramiento para un corte ideal</td>
+            <td>10.00 €</td>
+          </tr>
+          <tr>
+            <td>Ajuste de estilo</td>
+            <td>Adaptación a tus rasgos y preferencias</td>
+            <td>10.00 €</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+  <h2 class="seccion-titulo">Contáctanos</h2>
+
+  <div class="contacto__contenedor">
+    <!-- Información de contacto -->
+    <div class="contacto__item">
+      <h3>Información de Contacto</h3>
+      <table>
+        <tr>
+          <th>Dato</th>
+          <th>Información</th>
+        </tr>
+        <tr>
+          <td>Teléfono</td>
+          <td><a href="tel:+34123456789">+34 123 456 789</a></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><a href="mailto:mariajosegd96@gmail.com">mariajosegd96@gmail.com</a></td>
+        </tr>
+        <tr>
+          <td>Dirección</td>
+          <td>C/Federico López Pereira, nº 13</td>
+        </tr>
+        <tr>
+          <td>Horario mañanas</td>
+          <td> Lunes - Sábado 10:00-14:00 </td>
+
+        </tr>
+        <tr>
+          <td>Horario tardes</td>
+          <td> Lunes - Viernes 16:00-21:00 </td>
+
+        </tr>
+      
+      </table>
+    </div>
+    </div>
+
+    <!-- Formulario de contacto -->
+    <div class="contacto__item">
+      <h3>Envíanos un Mensaje</h3>
+      <form action="#" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="tunombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email_contacto" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit" class="btn-enviar">Enviar</button>
+      </form>
+    </div>
+  
+</section>
+  <!-- TRABAJA CON NOSOTROS  -->
+
+<section id="trabajar">
+<form action="#" method="POST">
+
+  <h2 class="seccion-titulo">Trabaja con nosotros</h2>
+  <fieldset>
+
+      <legend>Datos Personales</legend>
+      
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required><br><br>
+
+      <label for="dni">DNI:</label>
+      <input type="text" id="dni" name="dni" required><br><br>
+
+      <label for="sexo">Sexo:</label>
+      <select id="sexo" name="sexo" multiple>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+      </select><br><br>
+
+      <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+      <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+
+      <label for="ciudad">Ciudad:</label>
+      <input type="text" id="ciudad" name="ciudad" required><br><br>
+
+      <label for="nacionalidad">Nacionalidad:</label>
+      <input type="text" id="nacionalidad" name="nacionalidad" required><br><br>
+
+      <label for="codigo_postal">Código Postal:</label>
+      <input type="text" id="codigo_postal" name="codigo_postal" required><br><br>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required><br><br>
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required><br><br>
+  </fieldset>
+
+  <!-- Formación -->
+  <fieldset>
+      <legend>Formación</legend>
+
+      <label for="titulacion">Titulación:</label>
+      <input type="text" id="titulacion" name="titulacion"><br><br>
+
+      <label for="fecha_inicio">Año de Inicio:</label>
+      <input type="number" id="fecha_inicio" name="fecha_inicio" min="1900" max="2099" step="1"><br><br>
+
+      <label for="fecha_fin">Año de Finalización:</label>
+      <input type="number" id="fecha_fin" name="fecha_fin" min="1900" max="2099" step="1"><br><br>
+
+      <!-- titulaciones -->
+      <button type="button" onclick="agregarFormacion()">Añadir Titulación</button>
+  </fieldset>
+
+  <!-- Idiomas -->
+  <fieldset>
+      <legend>Idiomas</legend>
+
+      <label for="idioma">Idioma:</label>
+      <input type="text" id="idioma" name="idioma"><br><br>
+
+      <label for="hablado">Hablado:</label>
+      <select id="hablado" name="hablado">
+          <option value="excelente">Excelente</option>
+          <option value="bien">Bien</option>
+          <option value="regular">Regular</option>
+          <option value="nada">Nada</option>
+      </select><br><br>
+
+      <label for="leido">Leído:</label>
+      <select id="leido" name="leido">
+          <option value="excelente">Excelente</option>
+          <option value="bien">Bien</option>
+          <option value="regular">Regular</option>
+          <option value="nada">Nada</option>
+      </select><br><br>
+
+      <label for="escrito">Escrito:</label>
+      <select id="escrito" name="escrito">
+          <option value="excelente">Excelente</option>
+          <option value="bien">Bien</option>
+          <option value="regular">Regular</option>
+          <option value="nada">Nada</option>
+      </select><br><br>
+  </fieldset>
+
+  <button type="submit">Enviar</button>
+</form>
+</section>  
+
+
+  </main>
+
+
+  <footer class="footer">
+    <p>También puedes visitarnos en:</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=100012823031777" target="_blank">
+            <img src="img/facebook.jpg" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/mariiagzl96/" target="_blank">
+            <img src="img/instagram.jpg.png" alt="Instagram">
+        </a>
+             
+    </div>
+    
+</footer>
+
+</body>
+
+</html>
